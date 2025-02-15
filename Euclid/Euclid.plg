@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Euclid - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Euclid.res" /d "NDEBUG" "C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Euclid.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA202.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Euclid.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\DegSelect.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Div_poly.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\ErrorDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Euclid.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Euclid_return.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\EuclidDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Field.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\FindPrimitiveDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\PCIParam.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\PCPParam.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Period.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\PFIParam.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Poly_vect2.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\Polynomial.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Nod\Vect2.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA202.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA203.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Euclid.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\Euclid\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA203.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA204.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Euclid.pdb" /machine:I386 /out:"Release/Euclid.exe" 
+".\Release\DegSelect.obj"
+".\Release\Div_poly.obj"
+".\Release\ErrorDlg.obj"
+".\Release\Euclid.obj"
+".\Release\Euclid_return.obj"
+".\Release\EuclidDlg.obj"
+".\Release\Field.obj"
+".\Release\FindPrimitiveDlg.obj"
+".\Release\PCIParam.obj"
+".\Release\PCPParam.obj"
+".\Release\Period.obj"
+".\Release\PFIParam.obj"
+".\Release\Poly_vect2.obj"
+".\Release\Polynomial.obj"
+".\Release\StdAfx.obj"
+".\Release\Vect2.obj"
+".\Release\Euclid.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA204.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DegSelect.cpp
+Div_poly.cpp
+ErrorDlg.cpp
+Euclid.cpp
+Euclid_return.cpp
+EuclidDlg.cpp
+Field.cpp
+FindPrimitiveDlg.cpp
+PCIParam.cpp
+PCPParam.cpp
+Period.cpp
+PFIParam.cpp
+Poly_vect2.cpp
+Polynomial.cpp
+Vect2.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Euclid.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
